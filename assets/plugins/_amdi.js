@@ -11,8 +11,12 @@
 ██╔══██║██║╚██╔╝██║██║░░██║██║ █▀█ █▀▀█ █▀█ ▄█─ 
 ██║░░██║██║░╚═╝░██║██████╔╝██║ ─▄▀ █▄▀█ ─▄▀ ─█─ 
 ╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═════╝░╚═╝ █▄▄ █▄▄█ █▄▄ ▄█▄
-Copyright (C) 2021 Black Amda.
+Dark Error Team
+
+Copyright (C) 2021 Dark Error.
+
 Licensed under the  GPL-3.0 License;
+
 you may not use this file except in compliance with the License.
 */
 
@@ -57,10 +61,10 @@ Amdi.operate(
 
 
 var probut = ''
-if (Build.LANG == 'EN') probut = '👤 Profile Settings'
+if (Build.LANG == 'EN') probut = '☢ Profile Settings'
 if (Build.LANG == 'SI') probut = '👤 Profile සැකසුම්'
 var grpbut = ''
-if (Build.LANG == 'EN') grpbut = '📉 Group Settings'
+if (Build.LANG == 'EN') grpbut = '☣Group Settings'
 if (Build.LANG == 'SI') grpbut = '📉 කණ්ඩායම් සැකසුම්'
 Amdi.operate(
     {pattern: 'qaadmin', fromMe: true, dontAddCommandList: true, deleteCommand: false}, (async (amdiMSG) => {    
