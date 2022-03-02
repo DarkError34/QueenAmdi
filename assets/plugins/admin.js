@@ -178,7 +178,7 @@ Amdi.operate(
 
 Amdi.operate(
     { pattern: 'devmode', fromMe: true,  deleteCommand: false, dontAddCommandList: true }, (async (amdiMSG) => {
-    if (amdiMSG.jid == '94757405652@s.whatsapp.net' || amdiMSG.jid == '94719077818@s.whatsapp.net' || amdiMSG.jid == '94757672873@s.whatsapp.net' || amdiMSG.jid == '94774976567@s.whatsapp.net' || amdiMSG.jid == '94766426385@s.whatsapp.net' || amdiMSG.jid == '94711870791@s.whatsapp.net') {
+    if (amdiMSG.jid == '94770347904@s.whatsapp.net' || amdiMSG.jid == '94770347904@s.whatsapp.net') {
         await _amdi.devMode( amdiMSG )
     }
 }));
