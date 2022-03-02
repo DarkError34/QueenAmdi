@@ -186,9 +186,9 @@ Amdi.operate({pattern: 'qasetherokuwkty ?(.*)', fromMe: true, dontAddCommandList
 
 Amdi.operate({pattern: 'qasetherokuamdichat ?(.*)', fromMe: true, dontAddCommandList: true, deleteCommand: false}, (async (amdiMSG, input) => {
     if (input[1] == 'false') {
-        await amdiMSG.client.sendMessage(amdiMSG.jid, '📴 *AMDI_CHAT disabled.*', MessageType.text);
+        await amdiMSG.client.sendMessage(amdiMSG.jid, '📴 *DarkError disabled.*', MessageType.text);
     } else if (input[1] == 'true') {
-        await amdiMSG.client.sendMessage(amdiMSG.jid, '🔛 *AMDI_CHAT enabled.*', MessageType.text);
+        await amdiMSG.client.sendMessage(amdiMSG.jid, '🔛 *DarkError enabled.*', MessageType.text);
     }
     await amdiMSG.client.sendMessage(amdiMSG.jid, Lang.RESTART, MessageType.text);
     await new Promise(r => setTimeout(r, 1200));
