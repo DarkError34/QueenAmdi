@@ -11,9 +11,15 @@
 ██╔══██║██║╚██╔╝██║██║░░██║██║ █▀█ █▀▀█ █▀█ ▄█─ 
 ██║░░██║██║░╚═╝░██║██████╔╝██║ ─▄▀ █▄▀█ ─▄▀ ─█─ 
 ╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═════╝░╚═╝ █▄▄ █▄▄█ █▄▄ ▄█▄
-Copyright (C) 2021 Black Amda.
+Dark Error Team
+
+Copyright (C) 2021 Dark Error.
+
 Licensed under the  GPL-3.0 License;
+
 you may not use this file except in compliance with the License.
+
+
 */
 
 const {MessageType, Presence, MessageOptions} = require('@blackamda/queenamdi-web-api');
